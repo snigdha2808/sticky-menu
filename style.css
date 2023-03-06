@@ -1,0 +1,50 @@
+/*span is by default inline..
+so it does not take height and width
+thus use inline block as display in btn class*/
+
+body{
+  margin:0;
+}
+#header{
+  text-align: center;
+}
+#logo{
+  width: 250px;
+  height: auto;
+}
+#menu-bar{
+  text-align: center;
+  background-color: seagreen;
+}
+#menu-bar li{
+  display: inline-block;
+  padding: 15px 10px;
+  color:#fff;
+  font-size: 18px;
+  font-weight: bolder;
+}
+h1{
+  text-align: center;
+  text-decoration: underline;
+}
+img{
+  width: 100%;
+  height: auto;
+  margin:0 auto;
+}
+p{
+  font-size: 18px;
+  text-align:justify;
+}
+.about{
+  text-align: center;
+}
+#container{
+  text-align: center;
+  padding: 50px;
+}
+.sticky{
+  position: fixed;
+  top:0;
+  width:100%;
+}
